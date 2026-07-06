@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Website</title>
+</head>
+
+<body>
+   <div class="container">
+    <img src="tony2.jpg" alt="Tony's Photo" class="profile">
+    <h1>Hello, I'm Tony Tony's</h1>
+    <p>I'm now a Web Developer</p>
+     
+    <button onclick="showMessage()">Click Me</button>
+ </div>
+     
+    <div class="about">
+    <h2>About Me</h2>
+
+    <p class="about">
+     I build simple and clean Websites for business.</p>
+ </div>
+
+   <div class="service">
+      <h2>My Services</h2>
+
+      <div class="service-box">
+         <h3>Website Design</h3>
+          <p>I create beautiful websites.</p>
+   </div>
+
+     <div class="service-box">
+        <h3>Websites Development</h3>
+        <p>I build responsive websites.</p>
+     </div>
+
+     <div class="service-box">
+        <h3>Website Maintenance</h3>
+        <p>I help keep websites updated.</p>
+     </div>
+
+     <section>
+        <h2>My Projects</h2>
+
+        <h3>Resturant Website</h3>
+        <p>A modern websites for resturant.</p>
+
+        <h3>Business Websites</h3>
+        <p>A professional websites for a company</p>
+
+        <h3>Portfolio Websites</h3>
+        <p>A personal website showcasing skils.</p>
+        </section>
+
+     <h2>Contact Me</h2>
+
+     <p>Email:tonystony183@gmail.com</p>
+     <p>Phone: +234 814 318 7763</p>
+
+     <h2>Fellow Me</h2>
+
+     <a href="https://facebook.com/"
+     target="_blank">Facebook</a> |
+     <a href="https://instagram.com/" 
+     <a href="https//github.com/"target="_blank">Github</a> |
+     <a href="https://wa.me/234 814 318 7763"
+     target="_blank">WhatsApp</a>
+
+     <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+     </nav>
+
+     <footer>
+        <p>&copy: 2026 Tony Tony's. All Rights Reserved.</p>
+     </footer>
+
+    <script>
+      function showMesage(){
+        alart("Welcome to my portfolio website!");
+      }
+      </script>
+
+</body>
+
+<style>
+    body {
+    background-color: rgba(16, 15, 16, 0.678);
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    }
+
+    h1 {
+    color: gold;
+    font-size: 40px
+    }
+
+    p {
+     font-size: 20px;
+    }
+
+
+     .container {
+       margin-top: 100px;
+       background-color: #100e10b3;
+       width: 400px;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 30px;
+       border-radius: 15px;
+    }
+
+    button {
+     background-color: gold;
+     color: black;
+     padding: 12px 25px;
+     border: none;
+     font-size: 18px;
+     cursor: pointer;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: 0.3s;
+    }
+
+    button:hover {
+     background-color: orange;
+     transform:scale(1.05);
+    }
+
+    body {
+     margin: 0;
+     padding: 100px;
+    }
+    
+    .container {
+     margin-top: 100px;
+    }
+
+    .about {
+     margin-top: 50px;
+     color: gold
+    }
+
+    h2 {
+     color: gold;
+     font-size: 30px;
+    }
+
+    .about {
+     margin-top: 30px;
+     font-size: 20px;
+     color:lightgray
+    }
+
+    .service{
+      margin-top: 50px;
+    }
+    
+    .service-box{
+      background: white;
+      color:black;
+      padding: 20px;
+      margin: 15px;
+      border-radius: 10px;
+    }
+
+    footer{
+      background-color:#222222;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top: 50px;
+    } 
+      .profile{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border:4px solid rgb(192, 192, 90);
+      object-fit:cover;
+    }
+
+      a{
+      color:gold;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover{
+      color:orange;
+    }
+
+    secton{
+      margin:50p 0x;
+    }
+
+    nav{
+      background:black;
+      padding:20px;
+      text-align:center;
+    }
+
+    nav a{
+      background:yellow;
+      text-decoration:none;
+      margin:20px;
+      font-size:20px;
+      font-weight:bold;
+    }
+
+    nav a:hover{
+      color:white
+
+      @media (max-width: 768px){
+         .container{
+            width:90%;
+      }
+
+      nav a{
+        display:block;
+        margin:10px 0;
+      }
+    }
+
+  
+
+    
+</style>
+</html>
